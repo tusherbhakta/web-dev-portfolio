@@ -1,4 +1,7 @@
 
+*{
+    margin: 0;
+}
 /* common class start  */
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
@@ -27,6 +30,14 @@
     color: rgb(253, 110, 10);
 }
 /* common class end  */
+/* header start  */
+header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* header start  */
+
 /* nav start  */
 nav {
     margin: 50px 200px;
@@ -54,3 +65,58 @@ nav ul li a{
 }
 
 /* nav end  */
+/* banner start  */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 40px 0px 210px;
+}
+.banner-img{
+    width: 584px;
+}
+.banner-description{
+    width: 584px;
+}
+.banner-gretting{
+    margin-bottom: 5px;
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-heading{
+    margin-bottom: 20px;
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-p{
+    margin-bottom: 30px;
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn-banner1{
+    margin-right: 30px;
+}
+.btn-banner2{
+    background-color: white;
+    color: rgb(253, 110, 10);
+}
+.btn-banner2:hover{
+    background-color:rgb(253, 110, 10);
+    color: white;
+}
+/* banner end  */
