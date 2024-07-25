@@ -54,13 +54,13 @@
 header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: top 35px left 23px, bottom right;
 }
 /* header start  */
 
 /* nav start  */
 nav {
-    margin: 50px 200px;
+    padding: 50px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -270,3 +270,37 @@ main{
 }
 /* resume end  */
 /* main end  */
+/* footer start  */
+footer{
+    margin-top:115px ;
+    padding: 130px 230px;
+    display: flex;
+    gap: 115px;
+}
+.social-icon{
+    margin-top: 30px;
+}
+.social-icon a{
+    margin-right: 25px;
+}
+.footer-colum{
+    width: 50%;
+}
+footer input[type="text"],input[type="email"], textarea{
+    margin-bottom: 24px;
+    height: 45px;
+    width: 100%;
+    display: block;
+    border: none;
+    color: rgb(117, 117, 117);
+    padding: 18px 30px ;
+    border-radius: 5px;
+    background-color: white;
+}
+footer textarea{
+    height: 150px;
+}
+.footer-header{
+    text-align: left;
+}
+/* footer end  */
